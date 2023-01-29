@@ -1,0 +1,372 @@
+.container {
+  margin: auto;
+  width: 98%;
+  background-color: white;
+  border-radius: 0.7rem;
+  padding-top: 0.8rem;
+}
+
+.standings-header {
+  background-color: #f4fcf7;
+  color: #1b9e4b;
+  height: 2.2rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0.5rem;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  font-weight: 300;
+  font-size: 0.875rem;
+  font-family: "Neuzeit", sans-serif;
+}
+
+.standings__region-img {
+  margin-left: 0.5rem;
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+.standings-region {
+  color: #1b9e4b;
+}
+
+.standings-subheader {
+  background-color: #f4fcf7;
+  padding: 0.8rem;
+  height: 45px;
+}
+
+.standings-subheader ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+  font-size: 0.75rem;
+  font-family: "Proxima", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1b9e4b;
+  height: 100%;
+}
+
+.standings-subheader li {
+  width: 100px;
+  text-align: center;
+}
+
+.standings-subheader li:active,
+.standings-subheader li:hover {
+  background-color: #1b9e4b;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.7rem 0;
+}
+
+hr {
+  margin: 1rem 1rem;
+  height: 4px;
+  border-radius: 50px;
+  background-color: #c7c7c7;
+  border: 0;
+}
+
+.full-time {
+  display: flex;
+}
+
+.overall ul,
+.full-time ul {
+  display: flex;
+  gap: 0.2rem;
+  list-style: none;
+  margin-top: 0.6rem;
+  padding-left: 20px;
+  font-family: "Neuzeit", sans-serif;
+  font-size: 0.8rem;
+}
+
+.overall li {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.full-time li {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.full-time li:active,
+.full-time li:hover {
+  background-color: #1b9e4b;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.overall li:active,
+.overall li:hover {
+  background-color: #1b9e4b;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.standings__teams-container {
+  background-color: #f7f7f7;
+  margin: 1rem 0.4rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  height: 50vh;
+}
+
+.standings__header {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  font-family: "Proxima", sans-serif;
+  font-size: 0.75rem;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+}
+
+.standings__header1 {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1.5rem;
+  font-family: "Proxima", sans-serif;
+  font-size: 0.75rem;
+}
+
+.standings__header2 {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1.5rem;
+  font-family: "Proxima", sans-serif;
+  font-size: 0.75rem;
+}
+
+.team__container {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  background: white;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team__subcontainer {
+  display: flex;
+  font-family: "Proxima", sans-serif;
+  font-size: 0.75rem;
+  gap: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.team__subcontainer2 {
+  display: flex;
+  font-family: "Proxima", sans-serif;
+  font-size: 0.75rem;
+  gap: 1rem;
+  margin-right: 1.7rem;
+}
+
+.team__subcontainer p:first-of-type {
+  background-color: #1b549e;
+  color: white;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.toggle__button {
+  width: 2.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.2rem;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: #1b9e4b;
+  display: block;
+  margin: 0.3rem 0;
+  border-radius: 5px;
+}
+
+.nav__item,
+.nav__item a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav__item-button {
+  border: 2px solid #c7c7c7;
+  border-radius: 10px;
+  background: #1b9e4b;
+  font-family: "Philosopher", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.nav__item-button:hover {
+  background-color: #c7c7c7;
+}
+
+.nav__item {
+  border: 2px solid #c7c7c7;
+  border-radius: 10px;
+}
+
+.nav__item:hover {
+  background-color: #c7c7c7;
+  color: #1b9e4b;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .main-header {
+    width: 768px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container,
+  .main-header {
+    width: 1024px;
+    margin: auto;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 350px;
+  max-width: 80%;
+}
+
+.modal-subheader {
+  font-family: "Proxima", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.close-button {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  line-height: 0.2;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #1b9e4b;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+.modal__body-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 0.3rem;
+}
+
+.modal__prize {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Neuzeit", sans-serif;
+  font-size: 0.875rem;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.revendica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 61px;
+  border-radius: 5px;
+  background-color: #1b9e4b;
+  text-align: center;
+  color: white;
+  font-family: "Neuzeit", sans-serif;
+  font-size: 1.625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal__info {
+  font-family: "Neuzeit", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 400;
+  line-height: 9.6px;
+}

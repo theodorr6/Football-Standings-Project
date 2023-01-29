@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSH Standings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title"><img src="/images/betano.png" /></div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal__body-container">
+          <div class="modal-subheader">100% up To $250 Welcome Bonus+$10 Free Bet</div>
+          <div class="modal__prize">
+            <div>Procentaj</div>
+            <div>100%</div>
+          </div>
+          <div class="modal__prize">
+            <div>Conditii de Rulaj</div>
+            <div>40x</div>
+          </div>
+          <div class="modal__prize">
+            <div>Depunere Minima</div>
+            <div>$20</div>
+          </div>
+          <div class="revendica">Revendica</div>
+        </div>
+        <div class="modal__info">
+          UK players only. New players. Register & get up to 30 Free Spins [FS]. 10 FS*3 on selected slots over 3 days (10 FS per day upon log in). Must be claimed by 23:59 on day of grant & valid for 7 days once claimed. FS wins granted in bonus after all FS used; wins set at 14 (per 10 FS). Reg bonus wins capped at 100 exc. jp. wins. Deposit min 10, get 100% Bonus (max 100) + 30 FS (must be
+          claimed within 7 days & valid for 7 days once claimed). FS available on specific games; wins granted in bonus after all FS are used. Bonus wins capped at 400 exc. JP wins. Wagering req. apply: 30x bonus funds (vary by game);T&Cs Apply
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <header class="main-header">
+      <div class="logo">
+        <a href="index.html">Logo</a>
+      </div>
+      <nav>
+        <ul>
+          <li class="nav__item">
+            <a href="head2head/index.html">Head2Head</a>
+          </li>
+        </ul>
+        <button class="nav__item-button" data-modal-target="#modal">Bonus</button>
+      </nav>
+    </header>
+
+    <main>
+      <article class="container">
+        <div class="standings-header">
+          <img class="standings__region-img" src="https://freesvg.org/img/Anonymous-Flag-of-European-Union.png" />
+          <p class="standings-region">Europa</p>
+          <span>|</span>
+          <p>UEFA Champions League 2021/2022</p>
+        </div>
+        <div class="standings-subheader">
+          <ul>
+            <li class="selected">Standings</li>
+            <li>Form</li>
+            <li>Goal Stats</li>
+            <li>Cards & Corners</li>
+            <li>Top Scorers</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="overall">
+          <ul>
+            <li>Overall</li>
+            <li>Home</li>
+            <li>Away</li>
+          </ul>
+        </div>
+        <div class="full-time">
+          <ul>
+            <li>Full Time</li>
+            <li>First Half</li>
+            <li>Second Half</li>
+          </ul>
+          <button class="toggle__button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+          </button>
+        </div>
+
+        <div class="standings__teams-container">
+          <div class="standings__header">
+            <div class="standings__header1">
+              <p>#</p>
+              <p>Team</p>
+            </div>
+            <div class="standings__header2">
+              <p>MP</p>
+              <p>G</p>
+              <p>PTS</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>1</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>2</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p class="square__number">3</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>4</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>5</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>6</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>7</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>8</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>9</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>10</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__subcontainer">
+              <p>11</p>
+              <p>PSV Eindhoven</p>
+            </div>
+            <div class="team__subcontainer2">
+              <p>36</p>
+              <p>28</p>
+              <p>89</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

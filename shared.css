@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Neuzeit;
+  src: url(fonts/NeuzeitSBook.ttf);
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/proximanovacond-regular.otf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.386);
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b9e4b;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: auto;
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: "Philosopher", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+nav {
+  display: flex;
+}
